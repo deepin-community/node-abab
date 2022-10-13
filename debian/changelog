@@ -1,0 +1,41 @@
+node-abab (2.0.5-2) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.1
+  * Fix GitHub tags regex
+
+ -- Yadd <yadd@debian.org>  Mon, 16 Aug 2021 16:19:41 +0200
+
+node-abab (2.0.5-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Apply multi-arch hints
+  * New upstream version 2.0.5
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 01 Nov 2020 11:28:03 +0100
+
+node-abab (2.0.3-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * debian/watch: use github tags instead of npm registry
+  * Update VCS fields to salsa
+  * New upstream version 2.0.3
+  * Use pkg-js-tools auto install
+  * Enable upstream test using mocha
+  * Add upstream/metadata
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 18 Feb 2020 15:34:37 +0100
+
+node-abab (1.0.3-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Thorsten Alteholz <debian@alteholz.de>  Sun, 21 Feb 2016 19:40:14 +0100
